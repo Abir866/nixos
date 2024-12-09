@@ -80,6 +80,7 @@
       vscode
       zoom-us
       nerdfonts
+      wordpress
       python3Full
       libreoffice
       zsh-completions
