@@ -86,6 +86,9 @@
       zsh-completions
       zsh-autosuggestions
       zsh-syntax-highlighting
+      woeusb
+      undetected-chromedriver
+      chromedriver
     ];
   };
 
