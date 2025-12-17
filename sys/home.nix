@@ -76,6 +76,8 @@ in
       docker
       xclip
       unzip
+      nixd
+      nixfmt
     ];
 
     # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -257,9 +259,11 @@ in
       settings = {
         promptToReturnFromSubprocess = false;
         git = {
-          paging = {
-            pager = "${lib.getExe pkgs.delta} --paging=never --hyperlinks-file-link-format=\"lazygit-edit://{path}:{line}\"";
-          };
+          pagers = [
+            {
+              pager = "${lib.getExe pkgs.delta} --paging=never --hyperlinks-file-link-format=\"lazygit-edit://{path}:{line}\"";
+            }
+          ];
         };
         gui = {
           theme = {
