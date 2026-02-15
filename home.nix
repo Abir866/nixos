@@ -58,6 +58,8 @@ in
       chromedriver
       woeusb
       kooha
+      firefox
+      xfce.thunar
     ];
   };
 
