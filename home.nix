@@ -51,7 +51,6 @@ in
     packages = with pkgs; [
       brave
       zoom-us
-      wordpress
       libreoffice
       python313Packages.ptpython
       undetected-chromedriver
@@ -59,7 +58,6 @@ in
       woeusb
       kooha
       firefox
-      xfce.thunar
     ];
   };
 
@@ -68,7 +66,6 @@ in
       enable = true;
       settings.styles.theme = "nord";
     };
-
     fzf = {
       enable = true;
       defaultOptions = [

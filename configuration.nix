@@ -8,7 +8,18 @@
   imports = [
     ./sys/configuration.nix
   ];
-  environment.gnome.excludePackages = with pkgs; [
-    nautilus
-  ];
+
+  #  environment.gnome.excludePackages = with pkgs; [
+  #    nautilus
+  #  ];
+
+  #  programs = {
+  #    thunar.enable = true;
+  #    xfconf.enable = fals;
+  #  };
+
+  #  services = {
+  #    gvfs.enable = true;
+  #    tumbler.enable = true;
+  #  };
 }
