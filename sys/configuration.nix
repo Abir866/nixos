@@ -57,8 +57,7 @@ in
       enable = true;
       # Changed desktop manager 
       displayManager.lightdm.enable = true;
-      displayManager.lightdm.greeters.pantheon.enable = false;
-      desktopManager.pantheon.enable = true;
+      desktopManager.cinnamon.enable = true;
       # Configure keymap in X11
       xkb = {
         layout = "us";
