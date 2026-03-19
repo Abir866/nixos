@@ -18,8 +18,8 @@
   #    xfconf.enable = fals;
   #  };
 
-  #  services = {
-  #    gvfs.enable = true;
-  #    tumbler.enable = true;
-  #  };
+    services = {
+      xserver.displayManager.lightdm.enable = true;
+      xserver.desktopManager.pantheon.enable = true;
+    };
 }
