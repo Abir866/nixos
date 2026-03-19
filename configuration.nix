@@ -18,8 +18,4 @@
   #    xfconf.enable = fals;
   #  };
 
-    services = {
-      xserver.displayManager.lightdm.enable = true;
-      xserver.desktopManager.pantheon.enable = true;
-    };
 }

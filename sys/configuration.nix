@@ -55,7 +55,9 @@ in
     xserver = {
       # Enable the X11 windowing system.
       enable = true;
-
+      # Changed desktop manager 
+      displayManager.lightdm.enable = true;
+      desktopManager.pantheon.enable = true;
       # Configure keymap in X11
       xkb = {
         layout = "us";
@@ -66,9 +68,7 @@ in
       # dpi = 96;
       # upscaleDefaultCursor = true;
     };
-    # Enable the GNOME Desktop Environment.
-    displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
+
   };
   environment.variables = {
     # GDK_SCALE = "2.2";
