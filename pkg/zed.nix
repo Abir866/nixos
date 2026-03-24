@@ -10,6 +10,7 @@
       "sql"
       "warp-one-dark"
       "zed-docker-compose"
+      "harper"
     ];
     userSettings = {
       auto_update = false;
