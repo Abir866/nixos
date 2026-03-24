@@ -56,6 +56,7 @@
           language_servers = [
             "nixd"
             "!nil"
+            "harper-ls"
           ];
         };
         JavaScript = {
