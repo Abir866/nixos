@@ -56,6 +56,10 @@
           language_servers = [
             "nixd"
             "!nil"
+          ];
+        };
+        harper ={
+          language_servers = [
             "harper-ls"
           ];
         };
@@ -77,6 +81,7 @@
             };
           };
         };
+
       };
     };
     userKeymaps = [
