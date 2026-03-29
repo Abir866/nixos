@@ -10,6 +10,7 @@
       "sql"
       "warp-one-dark"
       "zed-docker-compose"
+      "typst"
       "harper"
     ];
     userSettings = {
@@ -58,9 +59,11 @@
             "!nil"
           ];
         };
-        harper ={
+        Typst = {
           language_servers = [
+            "tinymist"
             "harper-ls"
+            
           ];
         };
         JavaScript = {
