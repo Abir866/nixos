@@ -84,8 +84,18 @@
             };
           };
         };
+        harper-ls = {
+            settings = {
+                    dialect = "British";
+                    linters = {
+                        # Disable specific rules
+                        # For rule names consult tooltips and https://writewithharper.com/docs/rules
+                        RuleName = false;
+                    };
+                };
+            };
+        };
 
-      };
     };
     userKeymaps = [
       {
