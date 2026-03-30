@@ -58,7 +58,6 @@ in
       woeusb
       kooha
       firefox
-      harper
     ];
   };
 
@@ -67,6 +66,9 @@ in
       enable = true;
       settings.styles.theme = "nord";
     };
+    # nix-ld = {
+    #   enable = true;
+    # };
     fzf = {
       enable = true;
       defaultOptions = [
