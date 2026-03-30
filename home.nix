@@ -58,6 +58,7 @@ in
       woeusb
       kooha
       firefox
+      harper
     ];
   };
 
