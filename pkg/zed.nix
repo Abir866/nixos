@@ -63,7 +63,7 @@
           language_servers = [
             "tinymist"
             "harper-ls"
-            
+
           ];
         };
         JavaScript = {
@@ -85,16 +85,20 @@
           };
         };
         harper-ls = {
-            settings = {
-                    dialect = "British";
-                    linters = {
-                        # Disable specific rules
-                        # For rule names consult tooltips and https://writewithharper.com/docs/rules
-                        RuleName = false;
-                    };
-                };
+          settings = {
+            harper-ls = {
+              dialect = "British";
+              linters = {
+                SpellCheck = true;
+                LongSentences = false;
+                # Disable specific rules
+                # For rule names consult tooltips and https://writewithharper.com/docs/rules
+                RuleName = false;
+              };
             };
+          };
         };
+      };
 
     };
     userKeymaps = [
