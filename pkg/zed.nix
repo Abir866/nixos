@@ -90,11 +90,9 @@
           };
           settings = {
             harper-ls = {
-              userDictPath = "./..";
               dialect = "British";
               linters = {
                 SpellCheck = true;
-                LongSentences = false;
                 # Disable specific rules
                 # For rule names consult tooltips and https://writewithharper.com/docs/rules
                 RuleName = false;
