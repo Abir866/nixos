@@ -85,8 +85,12 @@
           };
         };
         harper-ls = {
+          binary = {
+            path_lookup = true;
+          };
           settings = {
             harper-ls = {
+              userDictPath = "./..";
               dialect = "British";
               linters = {
                 SpellCheck = true;
