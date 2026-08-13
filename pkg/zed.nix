@@ -85,14 +85,17 @@
           };
         };
         harper-ls = {
-          binary = {
-            path_lookup = true;
-          };
+
           settings = {
             harper-ls = {
+              binary = {
+                path_lookup = true;
+              };
+
               dialect = "British";
               linters = {
                 SpellCheck = true;
+                longSentences = false;
                 # Disable specific rules
                 # For rule names consult tooltips and https://writewithharper.com/docs/rules
                 RuleName = false;

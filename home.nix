@@ -57,12 +57,14 @@ in
       chromedriver
       woeusb
       kooha
-      firefox
       harper
     ];
   };
 
   programs = {
+    firefox = {
+      enable = true;
+    };
     bottom = {
       enable = true;
       settings.styles.theme = "nord";
@@ -83,4 +85,7 @@ in
       ];
     };
   };
+  # programs.firefox.preferences = {
+  #   "widget.use-xdg-desktop-portal.file-picker" = 1;
+  # };
 }
