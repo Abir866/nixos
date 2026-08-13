@@ -1,11 +1,11 @@
 {
-  config,
+  userConfig,
   pkgs,
   lib,
   ...
 }:
 let
-  userName = config.userConfig.username;
+  userName = userConfig.username;
 in
 {
   virtualisation = {
