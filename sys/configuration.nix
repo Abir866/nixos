@@ -19,6 +19,7 @@ in
     ./config.nix
     ./unfree.nix
     ../pkg/steam.nix
+    ./container.nix
   ];
 
   nix.optimise.dates = [ "weekly" ];
